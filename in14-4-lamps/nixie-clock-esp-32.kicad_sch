@@ -1,0 +1,82 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid cd8918ee-e986-4b1b-bef5-f32ed2eef1b1)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 177.8 25.4) (size 25.4 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 06f34b52-5a6a-4de1-84d0-e5bfe04d78e4)
+    (property "Sheetname" "tubes" (at 177.8 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "tubes.kicad_sch" (at 177.8 51.3846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "nixie-clock-esp-32"
+        (path "/cd8918ee-e986-4b1b-bef5-f32ed2eef1b1" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 25.4 25.4) (size 25.4 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5382da8f-8c05-45af-a23a-b579edd7d141)
+    (property "Sheetname" "power" (at 25.4 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 25.4 51.3846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "nixie-clock-esp-32"
+        (path "/cd8918ee-e986-4b1b-bef5-f32ed2eef1b1" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 127 25.4) (size 25.4 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 56fded3e-3601-4c51-a24b-c93011e51d8b)
+    (property "Sheetname" "tubes_control" (at 127 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "tubes_control.kicad_sch" (at 127 51.3846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "nixie-clock-esp-32"
+        (path "/cd8918ee-e986-4b1b-bef5-f32ed2eef1b1" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 76.2 25.4) (size 25.4 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6a0f8bd2-47e1-46cc-b2ff-e288ea213239)
+    (property "Sheetname" "control" (at 76.2 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "control.kicad_sch" (at 76.2 51.3846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "nixie-clock-esp-32"
+        (path "/cd8918ee-e986-4b1b-bef5-f32ed2eef1b1" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
